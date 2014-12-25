@@ -1,0 +1,5 @@
+eval `dbus-launch --sh-syntax`
+
+#eval DBUS_SESSION_BUS_ADDRESS='unix:abstract=/tmp/dbus-QXSrqO7SyO,guid=448e25351f7d8afeeade1c4b549bceb2';
+#export DBUS_SESSION_BUS_ADDRESS;
+#DBUS_SESSION_BUS_PID=3210;
