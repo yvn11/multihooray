@@ -1,0 +1,15 @@
+
+#dbus-send --session --type=signal \
+#--dest=hooray.cake.supperman \
+#/hooray/cake/supperman/door \
+#hooray.cake.supperman.blue.open_door \
+#string:"black"
+
+
+dbus-send --session --type=signal --print-reply \
+--dest=hooray.cake.supperman \
+/hooray/cake/supperman/door \
+hooray.cake.supperman.blue.open_door \
+string:black
+
+
