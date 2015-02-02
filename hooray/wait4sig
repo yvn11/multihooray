@@ -1,0 +1,4 @@
+dbus-monitor type=signal,\
+sender=hooray.cake.supperman,\
+interface=hooray.cake.supperman.blue,\
+member=open_door
